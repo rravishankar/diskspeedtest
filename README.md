@@ -14,9 +14,9 @@ gcc test4.c -o test_sync.o
 gcc test4_no_sync.c -o test_no_sync.o  
 
 ## Usage 
-_binary <FileName> <Size>_  
+binary FileName Size  
 FileName : Writes a file specified by this name  
-Size : Specify the size of FileName in MB  
+Size : Specify the size of FileName in MB    
 
 Sample usage of test_sync, writes a file with name abc - 512MB in size:  
 _____
